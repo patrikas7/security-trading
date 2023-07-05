@@ -1,0 +1,11 @@
+@import "../../../Theme/colors";
+
+.stockPriceContainer {
+  background-color: rgba($white, 0.2);
+  border-radius: 8px;
+  flex-wrap: wrap;
+
+  & > div {
+    overflow: hidden;
+  }
+}
